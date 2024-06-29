@@ -1791,6 +1791,13 @@ $paragraph-color:#646464;
         }
     }
 
+    .ellipsis {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 200px; /* Set the width according to your needs */
+    }
+    
     /* Why Choose CSS */
     .why-choose-section {
         padding-top: 70px;
